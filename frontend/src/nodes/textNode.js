@@ -1,4 +1,3 @@
-import { BaseNode } from '../components/BaseNode';
 import { nodeConfigs } from '../components/nodeConfigs';
 import { Handle, Position } from 'reactflow';
 import TextAreaAutosize from 'react-textarea-autosize';
