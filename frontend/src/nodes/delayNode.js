@@ -1,12 +1,12 @@
 import { BaseNode } from '../components/BaseNode';
 import { nodeConfigs } from '../components/nodeConfigs';
 
-export const OutputNode = ({ id, data }) => {
+export const DelayNode = ({ id, data }) => {
   return (
     <BaseNode
       id={id}
       data={data}
-      config={nodeConfigs.customOutput}
+      config={nodeConfigs.delay}
     />
   );
 };
